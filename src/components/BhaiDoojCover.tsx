@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import coverImg from "../images/intro.gif";
+import coverImg from "../svg/StampSVG1.png";
 
 type Props = {
   name?: string;

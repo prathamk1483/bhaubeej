@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import kitty from "../images/thankyou.gif"; // Hello Kitty gif
+import kitty from "../svg/StampSVG3.png"; // Hello Kitty gif
 
 type Props = {
   onBack?: () => void;
@@ -87,8 +87,8 @@ export default function ThankYouPage({ onBack }: Props) {
         <motion.img
           src={kitty}
           alt="Hello Kitty"
-          className="absolute right-3 bottom-3 sm:right-5 sm:bottom-4 w-[110px] sm:w-[150px] md:w-[190px] select-none drop-shadow-lg"
-          initial={{ opacity: 0, scale: 0.9, y: 40 }}
+          className="absolute right-3 bottom-3 sm:right-5 sm:bottom-4 w-[70px] sm:w-[100px] md:w-[130px] select-none drop-shadow-lg"
+          initial={{ opacity: 0, scale: 0.7, y: 30 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ delay: 0.7 }}
         />

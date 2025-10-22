@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import StampSvg from "../svg/StampSVG1";
+import StampSvg from "../svg/StampSVG1.png";
 import LetterPNG from "../images/letter.png";
 
 type Props = {
@@ -62,7 +62,10 @@ export default function Letter({ onBack, onNext }: Props) {
             transition={{ delay: 0.8 }}
             className="absolute bottom-[-25px] left-[-25px]"
           >
-            <StampSvg />
+            <img
+              src={StampSvg}
+              alt="Stamp"
+              className="w-[70px] sm:w-[90px] h-auto object-contain"/>
           </motion.div>
 
           {/* Header */}

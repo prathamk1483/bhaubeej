@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import Music1 from "../music/music1.mp3";
 import Music2 from "../music/music2.mp3";
 import Music3 from "../music/music3.mp3";
-import Cover1 from "../musiccover/music1.jpg";
-import Cover2 from "../musiccover/music2.jpg";
+import Cover1 from "../svg/StampSVG4.png";
+import Cover2 from "../svg/StampSVG3.png";
 import Cover3 from "../musiccover/music3.gif";
 
 type Props = {
